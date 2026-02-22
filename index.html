@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="bg-[#0B1A2A]">
+  <body class="bg-gray-900">
     <div class="flex items-center justify-between h-[100px] bg-gray-800 px-[100px]">
 
     <div class="flex items-center gap-[20px]">
@@ -65,17 +65,17 @@
         
         <p class="ml-[45px] text-white">Главная-Главная-Главная</p>
     </div>
-    <div class="w-[800px] h-[400px]  flex gap-[25px]">
-        <div class="w-[370px] h-[420px] bg-gray-900 mt-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.5)] ml-[10px] p-[30px]">
+    <div class=" h-[400px]  flex gap-[25px]  max-w-[1200px] m-auto">
+        <div class="max-w-[1200px] h-[420px] bg-gray-900 mt-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.5)] ml-[10px] p-[30px]">
             <h1 class="text-[40px] text-center text-[rgba(155,109,68,1)]">Заполните поля</h1>
-            <input type="text" name="" id="" placeholder=" Имя" class="border-2 border-gray-400 ml-[25px] h-[45px] rounded-[15px] w-full space-y-[20px]"><br><br>
-            <input type="number" placeholder=" Телефон" class="border-2 border-gray-400 ml-[25px] rounded-[15px] h-[45px] w-[300px] space-y-[20px]" >
-            <input type="text" name="" id="" placeholder=" Имя" class="border-2 border-gray-400 mt-[25px] h-[45px] rounded-[15px] ml-[25px] w-full space-y-[20px]"><br><br>
-            <input type="checkbox" class="ml-[10px]"><span class="ml-[2px] text-white w-[100%]">Соглашаюсь на обратку персональных данных</span>
+            <input type="text" name="" id="" placeholder=" Имя" class="border-2 border-gray-400 ml-[25px] h-[45px] rounded-[15px] w-full space-y-[20px] text-white"><br><br>
+            <input type="number" placeholder=" Телефон" class="border-2 border-gray-400 ml-[25px] rounded-[15px] h-[45px] w-[300px] space-y-[20px] text-white" >
+            <input type="email" name="" id="" placeholder=" E-mail" class="border-2 border-gray-400 mt-[25px] h-[45px] rounded-[15px] ml-[25px] w-full space-y-[20px] text-white"><br><br>
+            <input type="checkbox" class="ml-[10px] text-white"><span class="ml-[2px] text-white w-[100%]">Соглашаюсь на обратку персональных данных</span>
             <button class="ml-[25px] mt-[25px] bg-[rgba(155,109,68,1)] p-[10px] w-[240px] text-white rounded-[15px]">Отправить</button>
 
         </div>
-        <div class="w-[370px] h-[380px] bg-gray-900 mt-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.5)] ml-[10px]p-[30px]">
+        <div class="max-w-[1200px] m-auto h-[380px] bg-gray-900 mt-[15px] shadow-[0_10px_30px_rgba(0,0,0,0.5)] ml-[10px]p-[30px]">
             <h1 class="text-[40px] text-center text-[rgba(155,109,68,1)]">Авторизации</h1>
             <input type="email" name="" id="" placeholder="E-mail" class="border-2 border-gray-400 ml-[25px] h-[45px] rounded-[15px] text-white w-[300px]"><br>
             
@@ -86,6 +86,21 @@
         </div>
     </div>
     </div>
+</div>
+<div class="max-w-[1100px] m-auto  h-[150px] ">
+    <p class="text-white"> элементы чекбоксов, радио <br> кнопок, выбор из списка</p>
+    <input type="checkbox" class="w-[18px] h-[18px] accent-[#9B6D44]"><span class="text-white">Соглашаюсь на обратку персональных данных</span><br><br>
+    <input type="checkbox" class="w-[18px] h-[18px] accent-[#9B6D44]"><span class="text-white ">Соглашаюсь на обратку персональных данных</span>
+</div>
+<div class="max-w-[1100px] m-auto h-[150px]   text-white mt-[40px]">
+    <input type="radio"><span class="ml-[5px]">Радио-кнопка 1</span>
+    <input type="radio" class="ml-[95px]"><span class="ml-[5px]">Радио-кнопка 1</span><br>
+     <input type="radio"><span class="ml-[5px]">Радио-кнопка 1</span>
+    <input type="radio" class="ml-[95px]"><span class="ml-[5px]">Радио-кнопка 1</span><br>
+    <input type="radio"><span class="ml-[5px]">Радио-кнопка 1</span>
+    <input type="radio" class="ml-[95px]"><span class="ml-[5px]">Радио-кнопка 1</span><br>
+    
+
 </div>
   </body>
 </html>
